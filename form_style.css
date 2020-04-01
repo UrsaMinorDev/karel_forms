@@ -1,0 +1,246 @@
+
+body{
+    background-color: black;
+} /*Технический момент для НАГЛЯДНОСТИ!!*/
+
+.section-infobox-content{
+    background-color: white;
+    font-family: Roboto, 'sans-serif';
+    font-size: 17px;
+    line-height: 24px;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px 50px;
+}
+.section-infobox-content .form.disable{
+    display: none;
+}
+.form_title{
+    font-family: Roboto Slab, 'sans-serif';
+    font-size: 34px;
+    line-height: 36px;
+}
+.form_annotation {
+    display: flex;
+    margin-bottom: 14px;
+    padding-bottom: 14px;
+    border-bottom: solid 3px #5d5d5d;
+    color: #5d5d5d;
+}
+.orange_point {
+    font-size: 24px;
+    margin-right: 2px;
+    line-height: initial;
+    color: #f67a14;
+}
+.form_field_wrap {
+    margin-bottom: 30px;
+}
+.form_field_title {
+    margin-bottom: 4px;
+}
+.form_field_title.necessary:after{
+    content: '*';
+    color: #f67a14;
+    font-size: 24px;
+}
+.form_field_wrap input {
+    width: 400px;
+    padding: 5px;
+    border-radius: 5px;
+    border-color: #b1b1b1;
+    border-style: solid;
+}
+.form_field_wrap input:focus,
+.form_field_wrap textarea:focus{
+    border-color: #5d5d5d;
+}
+.form_field_wrap.load input {
+    border: none;
+    padding: 0;
+}
+.form_field_wrap textarea {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border-color: #b1b1b1;
+    border-style: solid;
+}
+.form_field_description {
+    font-size: 15px;
+    color: #b1b1b1;
+}
+.form_afterword {
+    display: grid;
+    grid-template-columns: 50px auto;
+    padding: 14px 0;
+    border-top: solid 3px #5d5d5d;
+    margin-bottom: 20px;
+}
+.form_afterword svg {
+    width: 30px;
+    height: 30px;
+    fill: #f67a14;
+}
+.list_wrap .list {
+    padding: 10px;
+    box-shadow: 3px 3px 13px 0 rgba(51,51,51,1);
+    width: 394px;
+    border-radius: 0 0 5px 5px;
+    position: absolute;
+    z-index: 100000;
+    background-color: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.4s;
+}
+.list_wrap.opened .list{
+    visibility: visible;
+    opacity: 1;
+    transition: 0.4s;
+}
+.list_wrap {
+    position: relative;
+}
+.list_wrap input{
+    cursor: pointer;
+}
+.list_wrap svg {
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    left: 386px;
+    top: 3px;
+    fill: #f67a14;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.list_wrap.opened svg{
+    transform: rotate(180deg);
+    transition: 0.4s;
+}
+.list_wrap.opened .list .item{
+    cursor: pointer;
+    transition: 0.4s;
+}
+.list_wrap.opened .list .item:hover{
+    color: #f67a14;
+}
+.form_field_wrap.load input {
+    color: #b1b1b1;
+}
+.form_buttons_wrap {
+    display: flex;
+    justify-content: space-around;
+}
+.form_buttons_wrap .button{
+    font-family: Roboto Slab, 'sans-serif';
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    background-color: #f67a14;
+    height: 40px;
+    border-right: 2px;
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+    cursor: pointer;
+}
+/*----------------------------------------Field states----------------------------------------------*/
+.form_field_wrap input.error,
+.form_field_wrap textarea.error{
+    border-color: #f67a14;
+    background-color: #fffbf2;
+}
+.form_field_wrap input.success,
+.form_field_wrap textarea.success{
+    border-color: #5d5d5d;
+}
+/*-----------------------------------------Error massage---------------------------------------------*/
+.form_error{
+    display: none;
+}
+.form_error.show {
+    margin-bottom: 14px;
+    padding: 20px;
+    background-color: #fffbf2;
+    border: 1px solid #f7e0c3;
+    display: grid;
+    grid-template-columns: 50px auto;
+}
+.form_error p {
+    margin: 0;
+}
+.form_error b{
+    font-family: Roboto Slab, 'sans-serif';
+    font-weight: 700;
+}
+.form_error svg {
+    width: 30px;
+    height: 30px;
+    fill: #f67a14;
+}
+/*-----------------------------------------Success massage---------------------------------------------*/
+.form_success_massage{
+    display: none;
+}
+.form_success_massage.show {
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, 'sans-serif';
+    background-color: white;
+    color: #333;
+    line-height: 24px;
+}
+.form_success_massage .header{
+    font-size: 20px;
+    font-family: Roboto Slab, 'sans-serif';
+    display: flex;justify-content: space-between;
+}
+/*--------------------------------------------Adaptive--------------------------------------------------*/
+@media screen and (max-width: 550px) {
+    .section-infobox-content{
+        padding: 30px;
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .form_title{
+        font-size: 28px;
+        line-height: 30px;
+    }
+    .form_field_wrap input{
+        width: 100%;
+    }
+    .form_buttons_wrap{
+        flex-direction: column-reverse;
+    }
+    form .form_buttons_wrap .button:last-of-type{
+        margin-bottom: 20px;
+    }
+    form .form_buttons_wrap .button{
+        padding: 10px 40px;
+        justify-content: center;
+        text-align: center;
+    }
+    .form_error.show {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .list_wrap svg{
+        position: absolute;
+        left: auto;
+        right: 0;
+    }
+    .list_wrap .list{
+        width: 100%;
+    }
+    .form_error.show svg{
+        margin-bottom: 10px;
+    }
+    .form_buttons_wrap .button{
+        justify-content: center;
+    }
+}
