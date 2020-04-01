@@ -28,6 +28,9 @@ body{
     border-bottom: solid 3px #5d5d5d;
     color: #5d5d5d;
 }
+.form_annotation.disable{
+    display: none;
+}
 .orange_point {
     font-size: 24px;
     margin-right: 2px;

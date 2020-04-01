@@ -32,5 +32,6 @@ function getForm (elem, error) {
     let parent =  error.closest('.section-infobox-content')
     parent.querySelector('.form_success_massage').classList.add('show');
     parent.querySelector('.form').classList.add('disable');
+    parent.querySelector('.form_annotation').classList.add('disable');
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }
