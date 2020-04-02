@@ -1,0 +1,101 @@
+
+/*Стили, которые уже есть у вас в коде: */
+.leaflet-left {
+    left: 0;
+}
+.leaflet-top {
+    top: 0;
+}
+.leaflet-top, .leaflet-bottom {
+    position: absolute;
+    z-index: 1000;
+    /*pointer-events: none;*/ /*Пришлось убрать, и наче ничего не работало*/
+}
+.leaflet-left .leaflet-control {
+    margin-left: 10px;
+}
+.leaflet-top .leaflet-control {
+    margin-top: 10px;
+}
+/*Этот БЫЛ ИСПРАВЛЕН: */
+.section-infobox-content {
+    margin: 1.5vh 0 0 0;
+    text-align: justify;
+    height: 55vh;
+    max-height: 55vh;
+    width: 40vw;
+    max-width: 40vw;
+    overflow-y: auto;
+    padding: 30px;
+    font-family: Roboto,'sans-serif';
+    font-size: 17px;
+    line-height: 24px;
+    color: #333333;
+}
+
+.section-infobox-wrapper {
+    background: rgba(255,255,255,1);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 15px;
+}
+.section-infobox-header {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: #f67a14;
+    padding: 10px 30px;
+    border-radius: 15px 15px 0 0;
+    font-family: Roboto Slab, 'sans-serif';
+}
+.section-infobox-header button {
+    border: none;
+    background: none;
+}
+.section-infobox-header button i{
+    color: white;
+}
+.infobox-desc fieldset {
+    margin-bottom: 20px;
+}
+.infobox-desc legend {
+    font-weight: 700;
+    color: #5d5d5d;
+}
+.section-infobox-wrapper a{
+    color: #f67a14;
+    text-decoration: none;
+    outline: none;
+}
+.section-infobox-wrapper .footer {
+    font-size: 12px;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: flex-end;
+    box-shadow: -1px -3px 3px -1px rgba(51,51,51,0.63);
+    color: #b1b1b1;
+    cursor: default;
+}
+.infobox-site {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/*------------------Adaptive------------------------*/
+@media screen and (max-width: 900px) {
+    .leaflet-top .leaflet-control{
+        margin: 10px;
+    }
+    .section-infobox-content{
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+}
+@media screen and (max-width: 500px){
+    .section-infobox-content{
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
