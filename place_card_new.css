@@ -32,6 +32,9 @@
     line-height: 24px;
     color: #333333;
 }
+.infobox-desc img {
+    object-fit: contain;
+}
 
 .section-infobox-wrapper {
     background: rgba(255,255,255,1);

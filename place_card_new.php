@@ -32,6 +32,11 @@
 
                 <div id="section-infobox-content" class="section-infobox-content">
                     <div class="infobox-desc">
+                        <a href="https://usvoih.fontanka.ru/storage/2020/04/02/2c720014-0775-48e0-b167-3be8a9edf540.png" target="_blank">
+                            <img src="https://usvoih.fontanka.ru/storage/2020/04/02/2c720014-0775-48e0-b167-3be8a9edf540_preview.jpg" width="350" height="250">
+                        </a>
+                    </div>
+                    <div class="infobox-desc">
                         <fieldset>
                             <legend>Род занятий</legend>
                             Гастрономический бар
