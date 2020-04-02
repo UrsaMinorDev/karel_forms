@@ -1,0 +1,11 @@
+#section-addform button{
+    background-color: #f67a14;
+    border: none;
+    border-radius: 2px;
+    font-family: Roboto Slab, 'sans-serif';
+    color: white;
+    height: 40px;
+    padding: 0 40px;
+    font-size: 14px;
+    font-weight: 700;
+}

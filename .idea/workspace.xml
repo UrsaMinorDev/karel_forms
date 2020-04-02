@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c35e313e-5ddf-4db6-b066-7053edefa5b0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/button.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/button.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/place_card_new.css" beforeDir="false" afterPath="$PROJECT_DIR$/place_card_new.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/place_card_new.php" beforeDir="false" afterPath="$PROJECT_DIR$/place_card_new.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/form_style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +78,7 @@
       <updated>1585667288009</updated>
       <workItem from="1585667289226" duration="707000" />
       <workItem from="1585668431235" duration="30619000" />
-      <workItem from="1585754124608" duration="14691000" />
+      <workItem from="1585754124608" duration="15288000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1585748370414</created>
@@ -100,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585870054153</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Place card new css - fix for image">
+      <created>1585870481853</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1585870481853</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,17 +118,18 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Place card" />
     <MESSAGE value="Place card new and css for that" />
-    <option name="LAST_COMMIT_MESSAGE" value="Place card new and css for that" />
+    <MESSAGE value="Place card new css - fix for image" />
+    <option name="LAST_COMMIT_MESSAGE" value="Place card new css - fix for image" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="131" y="113" width="1203" height="813" key="CommitChangelistDialog2" timestamp="1585870053975">
+    <state x="131" y="113" width="1203" height="813" key="CommitChangelistDialog2" timestamp="1585870481666">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="131" y="113" width="1203" height="813" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585870053975" />
-    <state x="795" y="442" key="NewPhpFileDialog" timestamp="1585869810604">
+    <state x="131" y="113" width="1203" height="813" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585870481666" />
+    <state x="795" y="442" key="NewPhpFileDialog" timestamp="1585870511980">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="795" y="442" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585869810604" />
+    <state x="795" y="442" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585870511980" />
     <state x="461" y="151" key="SettingsEditor" timestamp="1585748329606">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
