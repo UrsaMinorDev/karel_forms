@@ -195,6 +195,12 @@ footer {
     grid-gap: 20px;
     padding: 20px 50px 10px;
 }
+footer .marketing_block .logo i{
+    display: none;
+}
+footer .marketing_block .marketing_button{
+    display: none;
+}
 .marketing_block .logo a{
     margin-right: 30px;
     outline: none;
@@ -212,6 +218,9 @@ footer {
 }
 .marketing_block .phone {
     color: #333;
+}
+.marketing_block .phone p{
+    margin: 0;
 }
 .marketing_block .phone a{
     outline: none;
@@ -232,6 +241,12 @@ footer .content {
 footer .buttons_wrap {
     display: flex;
     margin-bottom: 20px;
+}
+footer .buttons_wrap .fontanka-button i{
+    display: none;
+}
+footer .buttons_wrap .fontanka-button p{
+    margin: 0;
 }
 
 footer .social_media {
@@ -258,6 +273,97 @@ footer .copyright {
     color: #b1b1b1;
     text-align: right;
 }
+@media screen and (max-width: 1300px){
+    .fontanka-button{
+        font-size: 14px;
+        padding: 8px 20px;
+    }
+}
+@media screen and (max-width: 990px){
+    footer  .buttons_wrap{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    footer .buttons_wrap .fontanka-button{
+        margin-left: 0;
+        margin-bottom: 10px;
+        padding: 8px 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    footer .social_media .title{
+        display: none;
+    }
+    .marketing_block img{
+        max-height: 50px;
+    }
+}
+@media screen and (max-width: 600px){
+    .footer_wrap{
+        grid-template-columns: 150px auto;
+        padding: 20px 20px 10px;
+    }
+    footer .buttons_wrap .fontanka-button p{
+        display: none;
+    }
+    footer .buttons_wrap .fontanka-button i{
+        display: block;
+    }
+    .marketing_block .phone p{
+        display: none;
+    }
+    footer .marketing_block .logo{
+        display: none;
+    }
+    footer .marketing_block .logo.show {
+        display: flex;
+        position: absolute;
+        background-color: white;
+        z-index: 1100;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 20px;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    footer .marketing_block .logo.show i{
+        color: #f67a14;
+        display: block;
+    }
+
+    .marketing_block .phone{
+        border: none;
+    }
+    .marketing_button {
+        cursor: pointer;
+        border: solid 2px #b1b1b1;
+        color: #b1b1b1;
+        padding: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 170px;
+    }
+    footer .buttons_wrap{
+        flex-direction: row;
+    }
+    footer .buttons_wrap .fontanka-button{
+        margin-left: 10px;
+    }
+    footer .social_media{
+        margin-bottom: 30px;
+    }
+    footer .copyright {
+        position: absolute;
+        bottom: 5px;
+        width: 100%;
+    }
+}
+
 /*--------------------------------------Modal area-----------------------------------------*/
 .modal_background {
     position: fixed;
@@ -285,6 +391,8 @@ footer .copyright {
 .modal_background .modal.show{
     display: flex;
     flex-direction: column;
+    max-height: 90vh;
+    overflow: auto;
 }
 .modal_background .header_modal {
     background-color: #f67a14;
@@ -312,6 +420,6 @@ footer .copyright {
 }
 /*----------------------------------Content-----------------------------------*/
 .content_button_wrap {
-    position: fixed;
-    bottom: 150px;
+    position: absolute;
+    top: 80px;
 }

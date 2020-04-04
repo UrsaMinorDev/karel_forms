@@ -49,3 +49,9 @@ function closeModal(elem) {
    elem.closest('.modal').classList.remove('show');
    elem.closest('.modal_background').classList.remove('show');
 }
+function showPartners(elem) {
+    elem.closest('.marketing_block').querySelector('.logo').classList.add('show');
+}
+function closePartners(elem) {
+    elem.closest('.logo').classList.remove('show');
+}

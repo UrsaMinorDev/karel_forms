@@ -56,6 +56,15 @@
             <div class="content_button_wrap">
                 <div class="fontanka-button" data-value="form" onclick="showModal(this)">Добавить</div>
             </div>
+            <div class="leaflet-control-zoomslider leaflet-bar leaflet-control"><a class="leaflet-control-zoomslider-in leaflet-bar-part leaflet-bar-part-top" href="#" title="Zoom in"></a>
+                <div class="leaflet-control-zoomslider-wrap leaflet-bar-part">
+                    <div class="leaflet-control-zoomslider-body" style="height: 120px;">
+                        <div class="leaflet-control-zoomslider-knob" style="transform: translate3d(0px, 33px, 0px);">
+                        </div>
+                    </div>
+                </div>
+                <a class="leaflet-control-zoomslider-out leaflet-bar-part leaflet-bar-part-bottom" href="#" title="Zoom out"></a>
+            </div>
 
         </div>
  <!--        /Content -->
@@ -90,22 +99,26 @@
         <footer>
             <div class="footer_wrap">
                 <div class="marketing_block">
+                    <div class="marketing_button" onclick="showPartners(this);">Наши партнёры</div>
                     <div class="logo">
                         <a href=""><img src="logo_mini.png"></a>
                         <a href=""><img src="logo_mini.png"></a>
                         <a href=""><img src="logo_mini.png"></a>
                         <a href=""><img src="logo_mini.png"></a>
                         <a href=""><img src="logo_mini.png"></a>
+                        <i class="fa fa-times" aria-hidden="true" onclick="closePartners(this);"></i>
                     </div>
-                    <div class="phone">По вопросам сотрудничества и размещения рекламы: <a href="tel:+78124167773"> +7 812 416 777 3</a></div>
+                    <div class="phone"><p>По вопросам сотрудничества и размещения рекламы:</p> <a href="tel:+78124167773"> +7 812 416 777 3</a></div>
                 </div>
                 <div class="content">
                     <div class="buttons_wrap">
                         <div class="fontanka-button" data-value="about" onclick="showModal(this);">
-                            О проекте
+                            <i class="fa fa-question" aria-hidden="true"></i>
+                            <p>О проекте</p>
                         </div>
                         <a class="fontanka-button">
-                            Online сервисы
+                            <i class="fa fa-wifi" aria-hidden="true"></i>
+                            <p>Online сервисы</p>
                         </a>
                     </div>
                     <div class="social_media">
