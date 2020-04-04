@@ -151,6 +151,21 @@ body{
     padding: 0 40px;
     cursor: pointer;
 }
+/*----------------------------------Counter----------------------------------------*/
+.form_field_wrap .counter {
+    display: flex;
+    font-size: 12px;
+    justify-content: flex-end;
+    color: #5d5d5d;
+    visibility: hidden;
+}
+.form_field_wrap .counter.show{
+    visibility: visible;
+}
+
+.form_field_wrap .counter .number{
+    margin-left: 6px;
+}
 /*----------------------------------------Field states----------------------------------------------*/
 .form_field_wrap input.error,
 .form_field_wrap textarea.error{

@@ -128,11 +128,12 @@
                         id="place_description"
                         contenteditable="true"
                         spellcheck="false"
-                        data-type="text"
-                        data-name="place_description"
-                        data-placeholder=""
-                        data-required="true"
+                        name="place_description"
+                        placeholder=""
+                        maxlength="300"
+                        oninput="counter(this)"
                 ></textarea>
+                <div class="counter">Осталось символов: <div class="number"></div></div>
             </div>
 
             <div class="form_field_wrap">
@@ -142,11 +143,12 @@
                         id="place_discounts"
                         contenteditable="true"
                         spellcheck="false"
-                        data-type="text"
-                        data-name="place_discounts"
-                        data-placeholder=""
-                        data-required="true"
+                        name="place_discounts"
+                        placeholder=""
+                        maxlength="300"
+                        oninput="counter(this)"
                 ></textarea>
+                <div class="counter">Осталось символов: <div class="number"></div></div>
             </div>
 
             <div class="form_field_wrap load">
@@ -161,11 +163,12 @@
                         id="place_discounts"
                         contenteditable="true"
                         spellcheck="false"
-                        data-type="text"
-                        data-name="place_discounts"
-                        data-placeholder=""
-                        data-required="true"
+                        name="place_discounts"
+                        placeholder=""
+                        maxlength="300"
+                        oninput="counter(this)"
                 ></textarea>
+                <div class="counter">Осталось символов: <div class="number"></div></div>
                 <div class="form_field_description">
                     Если есть какие-то особенности адреса (домофон, охрана в бизнес-центре или третий поворот направо во втором дворе в доме напротив памятника Чижику-Пыжыку) - укажите их! Это поможет людям найти вас!
                 </div>

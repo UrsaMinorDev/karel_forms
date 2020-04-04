@@ -35,3 +35,12 @@ function getForm (elem, error) {
     parent.querySelector('.form_annotation').classList.add('disable');
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }
+
+function counter(elem) {
+    let number = elem.getAttribute('maxlength');
+    let text = elem.value.length;
+    let parent = elem.closest('.form_field_wrap');
+    parent.querySelector('.counter').classList.add('show');
+    let number_field = parent.querySelector('.number');
+    number_field.innerHTML = number - text;
+}
