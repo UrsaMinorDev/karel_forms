@@ -11,7 +11,7 @@ function checkForm(elem) {
         getForm(elem, error);
     } else{
         error.classList.add('show');
-        window.scrollTo({ top: 0, behavior: 'smooth' });
+        elem.closest('.section-infobox-content').scrollTo({ top: 0, behavior: 'smooth' });
         console.log('User skipped necessary fields:'+ skip_counts );
     }
 }
@@ -33,7 +33,7 @@ function getForm (elem, error) {
     parent.querySelector('.form_success_massage').classList.add('show');
     parent.querySelector('.form').classList.add('disable');
     parent.querySelector('.form_annotation').classList.add('disable');
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    elem.closest('.section-infobox-content').scrollTo({ top: 0, behavior: 'smooth' });
 }
 
 function counter(elem) {

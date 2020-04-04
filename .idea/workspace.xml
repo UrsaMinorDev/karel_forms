@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c35e313e-5ddf-4db6-b066-7053edefa5b0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/form.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/form.php" beforeDir="false" afterPath="$PROJECT_DIR$/form.php" afterDir="false" />
@@ -20,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -78,7 +81,7 @@
       <updated>1585667288009</updated>
       <workItem from="1585667289226" duration="707000" />
       <workItem from="1585668431235" duration="30619000" />
-      <workItem from="1585754124608" duration="19496000" />
+      <workItem from="1585754124608" duration="40313000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1585748370414</created>
@@ -115,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585871110009</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Counter">
+      <created>1586007274040</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1586007274040</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,24 +137,25 @@
     <MESSAGE value="Place card new and css for that" />
     <MESSAGE value="Place card new css - fix for image" />
     <MESSAGE value="Button" />
-    <option name="LAST_COMMIT_MESSAGE" value="Button" />
+    <MESSAGE value="Counter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Counter" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="131" y="113" width="1203" height="813" key="CommitChangelistDialog2" timestamp="1585871109838">
+    <state x="131" y="113" width="1203" height="813" key="CommitChangelistDialog2" timestamp="1586007273814">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="131" y="113" width="1203" height="813" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585871109838" />
-    <state x="795" y="442" key="NewPhpFileDialog" timestamp="1585870511980">
+    <state x="131" y="113" width="1203" height="813" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586007273814" />
+    <state x="795" y="442" key="NewPhpFileDialog" timestamp="1586013036255">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="795" y="442" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585870511980" />
+    <state x="795" y="442" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586013036255" />
     <state x="461" y="151" key="SettingsEditor" timestamp="1585748329606">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="151" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585748329606" />
-    <state x="616" y="235" key="run.anything.popup" timestamp="1585748288647">
+    <state x="616" y="235" key="run.anything.popup" timestamp="1586028849761">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="235" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585748288647" />
+    <state x="616" y="235" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586028849761" />
   </component>
 </project>
