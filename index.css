@@ -128,7 +128,7 @@ a{
         align-items: center;
         grid-template-columns: 90px auto 170px;
     }
-    .header .desctop{
+    .header .desktop{
         display: none;
     }
     .header .mobile{
