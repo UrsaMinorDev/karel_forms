@@ -1,22 +1,8 @@
 <?php
 
 ?>
-<!DOCTYPE html>
-<html lang="ru-RU">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
     <link rel="stylesheet" href="place_card_new.css">
-    <!--    ЗДЕСЬ (НИЖЕ) ПОДКЛЮЧАЕТСЯ ШРИФТ!! -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <!--    ЗДЕСЬ (НИЖЕ) ПОДКЛЮЧАЕТСЯ AWESOME! -->
-    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
-
-    <title></title>
-</head>
-
-<body>
 
 <div class="leaflet-control-container">
     <div class="leaflet-top leaflet-left">
@@ -25,7 +11,7 @@
                         <i class="fa fa-cutlery" aria-hidden="true"></i>
                         &nbsp;Bar 76</h1>
 
-                    <button id="actor-infobox-close" class="section-infobox-button-close">
+                    <button id="actor-infobox-close" class="section-infobox-button-close" onclick="closeModal();">
                         <i class="fa fa-times fa-2x" aria-hidden="true"></i> <!--  Вот тут был просто "Х", который я заменила на крестик из awesome(!!)-->
                     </button>
                 </div>
@@ -73,5 +59,3 @@
             </section>
     </div>
 </div>
-</body>
-</html>

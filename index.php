@@ -66,6 +66,8 @@
                 <a class="leaflet-control-zoomslider-out leaflet-bar-part leaflet-bar-part-bottom" href="#" title="Zoom out"></a>
             </div>
 
+<!--        Place button --> <div data-value="place" onclick="showModal(this)" style="width: 100px; background-color: #eeeeee; margin-left: 20px; cursor: pointer;">Место 1</div>
+
         </div>
  <!--        /Content -->
 
@@ -91,6 +93,9 @@
             </div>
             <div class="form_modal modal">
                 <?php include('form.php'); ?>
+            </div>
+            <div class="place_card_modal modal">
+                <?php include('place_card_new.php'); ?>
             </div>
         </div>
 <!--       / Modal area-->

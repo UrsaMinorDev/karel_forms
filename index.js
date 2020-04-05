@@ -41,6 +41,8 @@ function showModal(elem) {
         modal.querySelector('.about_modal').classList.add('show');
     } else if (modal_window === 'form'){
         modal.querySelector('.form_modal').classList.add('show');
+    } else if (modal_window === 'place'){
+        modal.querySelector('.place_card_modal').classList.add('show');
     }
     modal.classList.add('show');
 }
@@ -59,6 +61,7 @@ function showPartners(elem) {
 function closePartners(elem) {
     elem.closest('.logo').classList.remove('show');
 }
+
 
   document.addEventListener('keydown', (e) => {
       console.log(e);

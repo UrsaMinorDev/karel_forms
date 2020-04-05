@@ -7,7 +7,7 @@
     top: 0;
 }
 .leaflet-top, .leaflet-bottom {
-    position: absolute;
+    /*position: absolute;
     z-index: 1000;
     /*pointer-events: none;*/ /*Пришлось убрать, и наче ничего не работало*/
 }
@@ -18,7 +18,7 @@
     margin-top: 10px;
 }
 /*Этот БЫЛ ИСПРАВЛЕН: */
-.section-infobox-content {
+.leaflet-control-container .section-infobox-content {
     margin: 1.5vh 0 0 0;
     text-align: justify;
     height: 55vh;
