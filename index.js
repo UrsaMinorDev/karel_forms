@@ -45,13 +45,23 @@ function showModal(elem) {
     modal.classList.add('show');
 }
 
-function closeModal(elem) {
-   elem.closest('.modal').classList.remove('show');
-   elem.closest('.modal_background').classList.remove('show');
+function closeModal() {
+    let modal_area = document.getElementById('modal_background');
+    modal_area.classList.remove('show');
+    let modals = modal_area.querySelectorAll('.modal');
+    modals.forEach((modal)=>{modal.classList.remove('show')});
 }
+
 function showPartners(elem) {
     elem.closest('.marketing_block').querySelector('.logo').classList.add('show');
 }
+
 function closePartners(elem) {
     elem.closest('.logo').classList.remove('show');
 }
+
+  document.addEventListener('keydown', (e) => {
+      console.log(e);
+      if(e.keyCode === 27){
+          closeModal();
+      }});

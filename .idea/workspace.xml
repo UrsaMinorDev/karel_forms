@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c35e313e-5ddf-4db6-b066-7053edefa5b0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +76,7 @@
       <updated>1585667288009</updated>
       <workItem from="1585667289226" duration="707000" />
       <workItem from="1585668431235" duration="30619000" />
-      <workItem from="1585754124608" duration="47072000" />
+      <workItem from="1585754124608" duration="48962000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1585748370414</created>
@@ -147,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586099688014</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Hotfix">
+      <created>1586100092532</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1586100092532</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,13 +171,14 @@
     <MESSAGE value="Footer and modals" />
     <MESSAGE value="Adaptive" />
     <MESSAGE value="Changes in index.css" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes in index.css" />
+    <MESSAGE value="Hotfix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hotfix" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="131" y="113" width="1203" height="813" key="CommitChangelistDialog2" timestamp="1586099687822">
+    <state x="131" y="113" width="1203" height="813" key="CommitChangelistDialog2" timestamp="1586100092350">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="131" y="113" width="1203" height="813" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586099687822" />
+    <state x="131" y="113" width="1203" height="813" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586100092350" />
     <state x="795" y="442" key="NewPhpFileDialog" timestamp="1586013036255">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
