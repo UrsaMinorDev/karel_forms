@@ -4,7 +4,7 @@
 
     <link rel="stylesheet" href="place_card_new.css">
 
-<div class="leaflet-control-container">
+<div class="place_card_cont">
     <div class="leaflet-top leaflet-left">
             <section id="section-infobox" class="section-infobox-wrapper invisible leaflet-control" data-leaflet-control-position="topleft" style="display: block;"><div style="text-align: left" class="section-infobox-header">
                     <h1 class="section-infobox-title">

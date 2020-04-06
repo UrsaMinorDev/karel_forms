@@ -1,30 +1,11 @@
 
-/*Стили, которые уже есть у вас в коде: */
-.leaflet-left {
-    left: 0;
-}
-.leaflet-top {
-    top: 0;
-}
-.leaflet-top, .leaflet-bottom {
-    /*position: absolute;
-    z-index: 1000;
-    /*pointer-events: none;*/ /*Пришлось убрать, и наче ничего не работало*/
-}
-.leaflet-left .leaflet-control {
-    margin-left: 10px;
-}
-.leaflet-top .leaflet-control {
-    margin-top: 10px;
-}
 /*Этот БЫЛ ИСПРАВЛЕН: */
-.leaflet-control-container .section-infobox-content {
+.place_card_cont{
+    overflow: hidden;
+}
+.place_card_cont .section-infobox-content {
     margin: 1.5vh 0 0 0;
     text-align: justify;
-    height: 55vh;
-    max-height: 55vh;
-    width: 40vw;
-    max-width: 40vw;
     overflow-y: auto;
     padding: 30px;
     font-family: Roboto,'sans-serif';
@@ -36,12 +17,14 @@
     object-fit: contain;
 }
 
-.section-infobox-wrapper {
+.place_card_cont .section-infobox-wrapper {
     background: rgba(255,255,255,1);
     box-shadow: 0 0 15px rgba(0,0,0,0.2);
     border-radius: 15px;
+    display: flex!important;
+    flex-direction: column!important;
 }
-.section-infobox-header {
+.place_card_cont .section-infobox-header {
     display: flex;
     justify-content: space-between;
     color: white;
@@ -63,6 +46,11 @@
 .infobox-desc legend {
     font-weight: 700;
     color: #5d5d5d;
+}
+
+.section-infobox-wrapper{
+    max-height: 90vh;
+    max-width: 50vw;
 }
 .section-infobox-wrapper a{
     color: #f67a14;
