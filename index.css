@@ -5,7 +5,7 @@ body{
 }
 
 body > .content {
-    height: calc(100% - 320px);
+    height: calc(100% - 230px); /*С баннером 320*/
 }
 
 body > .content #map {
@@ -30,6 +30,7 @@ a{
     box-sizing: border-box;
     height: 80px;
     align-items: center;
+    border-bottom: solid 1px #535353;
 }
 .header .mobile{
     display: none;
@@ -213,8 +214,9 @@ footer {
     width: 100%;
     display: flex;
     flex-direction: column;
-    height: 240px;
+    height: 150px; /*С баннером 240*/
     box-sizing: border-box;
+    border-top: solid 1px #535353;
 }
 .footer_wrap {
     display: grid;
@@ -305,10 +307,10 @@ footer .copyright {
     color: #b1b1b1;
     text-align: right;
 }
-footer .list_row {
-    padding: 0 50px;
-    height: 100px;
-}
+/*footer .list_row {*/
+/*    padding: 0 50px;*/
+/*    height: 100px;*/
+/*}*/
 
 @media screen and (max-width: 1300px){
     .fontanka-button{
