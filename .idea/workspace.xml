@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c35e313e-5ddf-4db6-b066-7053edefa5b0" name="Default Changelist" comment="Pla">
+    <list default="true" id="c35e313e-5ddf-4db6-b066-7053edefa5b0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/place_card_new.css" beforeDir="false" afterPath="$PROJECT_DIR$/place_card_new.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/place_card_new.php" beforeDir="false" afterPath="$PROJECT_DIR$/place_card_new.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +77,7 @@
       <updated>1585667288009</updated>
       <workItem from="1585667289226" duration="707000" />
       <workItem from="1585668431235" duration="30619000" />
-      <workItem from="1585754124608" duration="50811000" />
+      <workItem from="1585754124608" duration="54678000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1585748370414</created>
@@ -165,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586106889826</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Place card in modal">
+      <created>1586108958194</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1586108958194</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,13 +188,14 @@
     <MESSAGE value="Changes in index.css" />
     <MESSAGE value="Hotfix" />
     <MESSAGE value="Hide modal on Esc-press function in index.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hide modal on Esc-press function in index.js" />
+    <MESSAGE value="Place card in modal" />
+    <option name="LAST_COMMIT_MESSAGE" value="Place card in modal" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="131" y="113" width="1203" height="813" key="CommitChangelistDialog2" timestamp="1586108546132">
+    <state x="131" y="113" width="1203" height="813" key="CommitChangelistDialog2" timestamp="1586108957999">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="131" y="113" width="1203" height="813" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586108546132" />
+    <state x="131" y="113" width="1203" height="813" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586108957999" />
     <state x="795" y="442" key="NewPhpFileDialog" timestamp="1586013036255">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -20,7 +20,10 @@
         <div class="header">
             <img class="desktop" src="logo-20years.c7a3f31.svg">
             <img class="mobile" src="logo_mini.png">
-            <div class="title">"Поддержи своих"</div>
+            <div class="title_wrap">
+                <div class="title">"Покупай у своих"</div>
+                <div class="sub_title">Проект по поддержке малого бизнеса Петербурга</div>
+            </div>
             <div class="search_wrap">
                 <div class="search_button" onclick="openSearch(this);">
                     <i class="fa fa-angle-down fa-2x" aria-hidden="true"></i>

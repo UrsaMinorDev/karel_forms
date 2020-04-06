@@ -21,7 +21,7 @@ a{
 /*------------------------Header styles-----------------------*/
 .header {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 200px auto 200px;
     padding: 10px 50px;
     background-color: white;
     position: sticky;
@@ -33,12 +33,19 @@ a{
 .header .mobile{
     display: none;
 }
+.header .title_wrap{
+    justify-self: center;
+    text-align: center;
+}
 .header .title{
     font-family: Roboto Slab, 'sans-serif';
     color: #f67a14;
-    font-size: 30px;
+    font-size: 26px;
     font-weight: 800;
-    justify-self: center;
+}
+.sub_title {
+    color: #b1b1b1;
+    font-family: Roboto, 'sans-serif';
 }
 .header .search_wrap{
     justify-self: right;
@@ -122,7 +129,7 @@ a{
         font-size: 24px;
     }
 }
-@media screen and (max-width: 800px){
+@media screen and (max-width: 930px){
     .header{
         padding: 0 30px;
         align-items: center;
@@ -134,6 +141,11 @@ a{
     .header .mobile{
         display: flex;
         height: 70px;
+    }
+}
+@media screen and (max-width: 750px){
+    .header .sub_title{
+        display: none;
     }
 }
 @media screen and (max-width: 630px){
