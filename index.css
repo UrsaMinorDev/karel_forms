@@ -5,7 +5,7 @@ body{
 }
 
 body > .content {
-    height: calc(100% - 220px);
+    height: calc(100% - 230px);
 }
 
 body > .content #map {
@@ -28,7 +28,8 @@ a{
     top: 0;
     z-index: 1000;
     box-sizing: border-box;
-    height: 70px;
+    height: 80px;
+    align-items: center;
 }
 .header .mobile{
     display: none;
@@ -43,9 +44,10 @@ a{
     font-size: 26px;
     font-weight: 800;
 }
-.sub_title {
-    color: #333;
+.header .sub_title {
+    color: #535353;
     font-weight: 700;
+    font-size: 18px;
 }
 .header .search_wrap{
     justify-self: right;
@@ -225,6 +227,11 @@ footer .marketing_block .logo i{
 }
 footer .marketing_block .marketing_button{
     display: none;
+}
+.marketing_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 .marketing_block .logo a{
     margin-right: 30px;
@@ -449,5 +456,5 @@ footer .copyright {
 /*----------------------------------Content-----------------------------------*/
 .content_button_wrap {
     position: absolute;
-    top: 80px;
+    top: 90px;
 }

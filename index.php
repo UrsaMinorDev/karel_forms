@@ -107,15 +107,15 @@
         <footer>
             <div class="footer_wrap">
                 <div class="marketing_block">
-                    <div class="marketing_button" onclick="showPartners(this);">Наши партнёры</div>
-                    <div class="logo">
-                        <a href=""><img src="logo_mini.png"></a>
-                        <a href=""><img src="logo_mini.png"></a>
-                        <a href=""><img src="logo_mini.png"></a>
-                        <a href=""><img src="logo_mini.png"></a>
-                        <a href=""><img src="logo_mini.png"></a>
-                        <i class="fa fa-times" aria-hidden="true" onclick="closePartners(this);"></i>
-                    </div>
+<!--                    <div class="marketing_button" onclick="showPartners(this);">Наши партнёры</div>-->
+<!--                    <div class="logo">-->
+<!--                        <a href=""><img src="logo_mini.png"></a>-->
+<!--                        <a href=""><img src="logo_mini.png"></a>-->
+<!--                        <a href=""><img src="logo_mini.png"></a>-->
+<!--                        <a href=""><img src="logo_mini.png"></a>-->
+<!--                        <a href=""><img src="logo_mini.png"></a>-->
+<!--                        <i class="fa fa-times" aria-hidden="true" onclick="closePartners(this);"></i>-->
+<!--                    </div>-->
                     <div class="phone"><p>По вопросам сотрудничества и размещения рекламы:</p> <a href="tel:+78124167773"> +7 812 416 777 3</a></div>
                 </div>
                 <div class="content">
