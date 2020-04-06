@@ -140,6 +140,7 @@
                     </div>
                 </div>
             </div>
+            <div class="list_row"></div>
 
         </footer>
 
