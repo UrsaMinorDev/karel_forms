@@ -206,10 +206,10 @@
     fill: #f67a14;
 }
 /*-----------------------------------------Success massage---------------------------------------------*/
-.form_success_massage{
+.form_success_message{
     display: none;
 }
-.form_success_massage.show {
+.form_success_message.show {
     display: flex;
     flex-direction: column;
     font-family: Roboto, 'sans-serif';
@@ -217,7 +217,7 @@
     color: #333;
     line-height: 24px;
 }
-.form_success_massage .header{
+.form_success_message .header{
     font-size: 20px;
     font-family: Roboto Slab, 'sans-serif';
     display: flex;justify-content: space-between;
