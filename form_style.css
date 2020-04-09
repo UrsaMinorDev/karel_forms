@@ -153,6 +153,9 @@
     padding: 0 40px;
     cursor: pointer;
 }
+.form_buttons_wrap button{
+    border: none;
+}
 /*----------------------------------Counter----------------------------------------*/
 .form_field_wrap .counter {
     display: flex;
@@ -205,23 +208,32 @@
     height: 30px;
     fill: #f67a14;
 }
-/*-----------------------------------------Success massage---------------------------------------------*/
-.form_success_message{
-    display: none;
-}
-.form_success_message.show {
+/*!*-----------------------------------------Success massage---------------------------------------------*!*/
+/*.form_success_message{*/
+/*    display: none;*/
+/*}*/
+/*.form_success_message.show {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    font-family: Roboto, 'sans-serif';*/
+/*    background-color: white;*/
+/*    color: #333;*/
+/*    line-height: 24px;*/
+/*}*/
+/*.form_success_message .header{*/
+/*    font-size: 20px;*/
+/*    font-family: Roboto Slab, 'sans-serif';*/
+/*    display: flex;justify-content: space-between;*/
+/*}*/
+.success_message {
     display: flex;
     flex-direction: column;
-    font-family: Roboto, 'sans-serif';
-    background-color: white;
-    color: #333;
-    line-height: 24px;
+    width: 100vw;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 800px;
 }
-.form_success_message .header{
-    font-size: 20px;
-    font-family: Roboto Slab, 'sans-serif';
-    display: flex;justify-content: space-between;
-}
+
 /*--------------------------------------------Adaptive--------------------------------------------------*/
 @media screen and (max-width: 1000px){
     .section-infobox-wrapper{
