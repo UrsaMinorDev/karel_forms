@@ -74,12 +74,12 @@
 
 /*------------------Adaptive------------------------*/
 @media screen and (max-width: 900px) {
-    .leaflet-top .leaflet-control{
+    .place_card_cont .section-infobox-wrapper{
         margin: 10px;
     }
-    .section-infobox-content{
-        width: 100%;
-        max-width: 100%;
+    .section-infobox-wrapper{
+        width: 90vw;
+        max-width: 90vw;
         box-sizing: border-box;
     }
 }
