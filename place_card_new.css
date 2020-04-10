@@ -15,6 +15,7 @@
 }
 .infobox-desc img {
     object-fit: contain;
+    max-width: 100%;
 }
 
 .place_card_cont .section-infobox-wrapper {
@@ -50,7 +51,7 @@
 
 .section-infobox-wrapper{
     max-height: 90vh;
-    max-width: 50vw;
+    width: 50vw;
 }
 .section-infobox-wrapper a{
     color: #f67a14;
@@ -79,7 +80,6 @@
     }
     .section-infobox-wrapper{
         width: 90vw;
-        max-width: 90vw;
         box-sizing: border-box;
     }
 }
@@ -87,6 +87,9 @@
     .section-infobox-content{
         font-size: 14px;
         line-height: 20px;
+    }
+    .place_card_cont h1 {
+        font-size: 20px;
     }
 }
 
