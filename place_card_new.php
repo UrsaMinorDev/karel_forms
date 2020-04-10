@@ -42,9 +42,9 @@
                     <fieldset>
                         <legend>Наши контакты</legend>
                         <!--  ПРАВКА В ВЕРСТКЕ!!! (цвет внутри Спана удален). Стиль для ссылки прописан. Если это должно быть ссылкой, нужно в шаблоне заменить на <a>-->
-                        <strong>Адрес:</strong><br> <span>Малый проспект Петроградской стороны, 76 </span> <br>
+                        <strong>Адрес:</strong><span>Малый проспект Петроградской стороны, 76 </span> <br>
 
-                        <strong>Наш телефон:</strong><br><span>https://www.facebook.com/Bar76SPb/ </span> <br>
+                        <strong>Наш телефон:</strong><span><a href="">https://www.facebook.com/Bar76SPb/ </a></span> <br>
                     </fieldset>
 
 <!--                    <br>-- Удалить из верстки. -->

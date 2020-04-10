@@ -76,6 +76,10 @@
     display: flex;
     justify-content: center;
 }
+.place_card_cont .section-infobox-content strong {
+    margin-right: 10px;
+    color: #5d5d5d;
+}
 
 /*------------------Adaptive------------------------*/
 @media screen and (max-width: 900px) {
