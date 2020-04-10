@@ -9,7 +9,7 @@
             <section id="section-infobox" class="section-infobox-wrapper invisible leaflet-control" data-leaflet-control-position="topleft" style="display: block;"><div style="text-align: left" class="section-infobox-header">
                     <h1 class="section-infobox-title">
                         <i class="fa fa-cutlery" aria-hidden="true"></i>
-                        &nbsp;Bar 76</h1>
+                        &nbsp;Bar 76 Bar 76 Bar 76 Bar 76 Bar 76 Bar 76 Bar 76 Bar 76 Bar 76 Bar 76 Bar 76 Bar 76 Bar 76</h1>
 
                     <button id="actor-infobox-close" class="section-infobox-button-close" onclick="closeModal();">
                         <i class="fa fa-times fa-2x" aria-hidden="true"></i> <!--  Вот тут был просто "Х", который я заменила на крестик из awesome(!!)-->

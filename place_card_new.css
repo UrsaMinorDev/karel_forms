@@ -1,7 +1,9 @@
 
-/*Этот БЫЛ ИСПРАВЛЕН: */
 .place_card_cont{
     overflow: hidden;
+}
+.place_card_cont h1 {
+    margin: 10px 0;
 }
 .place_card_cont .section-infobox-content {
     margin: 1.5vh 0 0 0;
@@ -33,10 +35,12 @@
     padding: 10px 30px;
     border-radius: 15px 15px 0 0;
     font-family: Roboto Slab, 'sans-serif';
+    align-items: flex-start;
 }
 .section-infobox-header button {
     border: none;
     background: none;
+    margin: 10px 0 10px 10px
 }
 .section-infobox-header button i{
     color: white;
