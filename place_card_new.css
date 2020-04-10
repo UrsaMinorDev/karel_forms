@@ -45,10 +45,10 @@
 .section-infobox-header button i{
     color: white;
 }
-.infobox-desc fieldset {
+.place_card_cont fieldset {
     margin-bottom: 20px;
 }
-.infobox-desc legend {
+.place_card_cont legend {
     font-weight: 700;
     color: #5d5d5d;
 }
