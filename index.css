@@ -55,6 +55,10 @@ a{
     display: flex;
     justify-self: right;
 }
+.search_area.desktop {
+    padding-bottom: 5px;
+    border-bottom: solid 1px #b1b1b1;
+}
 .search_area .search_wrap{
     justify-self: right;
     position: relative;
