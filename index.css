@@ -104,6 +104,8 @@ a{
     display: flex;
     flex-direction: column;
     z-index: 10000;
+    overflow-y: scroll;
+    max-height: 80vh;
 }
 .search_area .search_wrap .search_list .item{
     padding: 10px 20px;
