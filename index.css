@@ -184,6 +184,12 @@ a{
     .header{
         grid-template-columns: 200px auto 200px;
     }
+    .search_area .search_wrap.opened .search_list{
+        max-height: 35vh;
+        -webkit-box-shadow: 0 3px 5px 0 rgba(177,177,177,1);
+        -moz-box-shadow: 0 3px 5px 0 rgba(177,177,177,1);
+        box-shadow: 0 3px 5px 0 rgba(177,177,177,1);
+    }
 }
 @media screen and (max-width: 1000px){
     .header .title{
