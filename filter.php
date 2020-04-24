@@ -16,11 +16,11 @@
                 <i class="fa fa-cutlery" aria-hidden="true"></i>
                 <p>Еда</p>
             </div>
-            <div class="item sub" data-value="meat" onclick="chooseItem(this);">
+            <div class="item subitem" data-value="meat" onclick="chooseItem(this);">
                 <i class="fa fa-cutlery" aria-hidden="true"></i>
                 <p>Мясо</p>
             </div>
-            <div class="item sub" data-value="fish" onclick="chooseItem(this);">
+            <div class="item subitem" data-value="fish" onclick="chooseItem(this);">
                 <i class="fa fa-cutlery" aria-hidden="true"></i>
                 <p>Рыба</p>
             </div>

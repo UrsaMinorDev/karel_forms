@@ -114,7 +114,7 @@ a{
     align-items: center;
     background-color: #b1b1b142;
 }
-.search_area .search_wrap .search_list .item.sub {
+.search_area .search_wrap .search_list .item.subitem {
     font-weight: 400;
     font-size: 14px;
     padding-left: 30px;
@@ -135,7 +135,7 @@ a{
     transition: 0.4s;
 }
 .search_area .search_wrap .item.chosen,
-.search_area .search_wrap .item.sub.chosen{
+.search_area .search_wrap .item.subitem.chosen{
     color: white;
     background-color: #f67a14;
 }
