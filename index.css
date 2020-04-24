@@ -21,7 +21,7 @@ a{
 /*------------------------Header styles-----------------------*/
 .header {
     display: grid;
-    grid-template-columns: 200px auto 200px;
+    grid-template-columns: 200px auto 500px;
     padding: 10px 50px;
     background-color: white;
     position: sticky;
@@ -50,15 +50,21 @@ a{
     font-weight: 700;
     font-size: 18px;
 }
-.header .search_wrap{
+/*--------------Filter--------------------*/
+.search_area {
+    display: flex;
+    justify-self: right;
+}
+.search_area .search_wrap{
     justify-self: right;
     position: relative;
     width: 170px;
+    margin-right: 10px;
 }
 
-.header .search_button {
-    background-color: #f67a14;
-    color: white;
+.search_area .search_button {
+    background-color: white;
+    color: #f67a14;
     text-transform: uppercase;
     font-family: Roboto, 'sans-serif';
     display: flex;
@@ -66,29 +72,23 @@ a{
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    border: solid 2px transparent;
+    border: solid 2px #f67a14;
     transition: 0.4s;
     border-radius: 2px;
 }
-.header .search_button:hover,
-.header .search_wrap.opened .search_button{
-    background-color: white;
-    border: solid 2px #f67a14;
-    color: #f67a14;
-    transition: 0.4s;
-}
-.header .search_button .content i{
+
+.search_area .search_button .content i{
     display: none;
 }
-.header .search_button .content p{
+.search_area .search_button .content p{
     font-weight: 700;
 }
-.header .search_button .fa-angle-down{
+.search_area .search_button .fa-angle-down{
     margin-right: 6px;
     transform: rotate(180deg);
     transition: 0.4s;
 }
-.header .search_wrap .search_list{
+.search_area .search_wrap .search_list{
     position: absolute;
     background-color: white;
     width: 100%;
@@ -96,37 +96,86 @@ a{
     color: #333333;
     display: none;
 }
-.header .search_wrap.opened .search_list{
+.search_area .search_wrap.opened .search_list{
     display: flex;
     flex-direction: column;
+    z-index: 10000;
 }
-.header .search_wrap .search_list .item{
+.search_area .search_wrap .search_list .item{
     padding: 10px 20px;
     cursor: pointer;
     transition: 0.4s;
     font-weight: 600;
     display: flex;
     align-items: center;
+    background-color: #b1b1b142;
 }
-.header .search_wrap .search_list .item p{
+.search_area .search_wrap .search_list .item.sub {
+    font-weight: 400;
+    font-size: 14px;
+    padding-left: 30px;
+    background-color: white;
+}
+.search_area .search_wrap .search_list .item p{
     margin: 0;
 }
-.header .search_wrap .search_list .item i{
+.search_area .search_wrap .search_list .item i{
     margin-right: 6px;
 }
-.header .search_wrap .search_list .item:hover{
+.search_area .search_wrap .search_list .item:hover{
     background-color: #f67a14;
     color: white;
 }
-.header .search_wrap.opened .search_button .fa-angle-down{
+.search_area .search_wrap.opened .search_button .fa-angle-down{
     transform: rotate(0);
     transition: 0.4s;
 }
-.header .search_wrap .item.chosen{
+.search_area .search_wrap .item.chosen,
+.search_area .search_wrap .item.sub.chosen{
     color: white;
     background-color: #f67a14;
 }
+.fontanka-button.submit_search{
+    margin-left: 0;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    height: 40px;
+}
+.fontanka-button.submit_search svg {
+    height: 25px;
+    width: 25px;
+    fill: white;
+    transition: 0.4s;
+}
+.fontanka-button.submit_search:hover svg{
+    fill: #f67a14;
+}
+.search_area.mobile{
+    display: none;
+}
+.mobile_filter_modal.modal.show .search_area {
+    background-color: white;
+    padding: 30px 50px;
+    height: 50vh;
+    border-radius: 0 0 7px 7px;
+}
 /*---------------------------Header-adaptive--------------------------------*/
+@media screen and (max-width: 1300px){
+    .search_area.mobile{
+        display: flex;
+        align-items: center;
+    }
+    .search_area.mobile .search_button{
+        padding: 0 40px;
+    }
+    .search_area.desktop{
+        display: none;
+    }
+    .header{
+        grid-template-columns: 200px auto 200px;
+    }
+}
 @media screen and (max-width: 1000px){
     .header .title{
         font-size: 24px;
@@ -156,23 +205,26 @@ a{
         padding: 0 20px;
         grid-template-columns: 90px auto 70px;
     }
-    .header .search_button .content i{
-        display: flex;
-    }
-    .header .search_button .content p{
-        display: none;
-    }
-    .header .search_wrap{
-        width: 70px;
-    }
-    .header .search_wrap .search_list .item p{
-        display: none;
-    }
-    .header .search_wrap .search_list .item{
-        justify-content: center;
-    }
-    .header .search_wrap .search_list .item i{
-        margin-right: 0;
+    /*.header .search_button .content i{*/
+    /*    display: flex;*/
+    /*}*/
+    /*.header .search_button .content p{*/
+    /*    display: none;*/
+    /*}*/
+    /*.header .search_wrap{*/
+    /*    width: 70px;*/
+    /*}*/
+    /*.header .search_wrap .search_list .item p{*/
+    /*    display: none;*/
+    /*}*/
+    /*.header .search_wrap .search_list .item{*/
+    /*    justify-content: center;*/
+    /*}*/
+    /*.header .search_wrap .search_list .item i{*/
+    /*    margin-right: 0;*/
+    /*}*/
+    .search_area.mobile .search_button{
+        padding: 0 20px;
     }
 }
 @media screen and (max-width: 480px){
@@ -182,6 +234,16 @@ a{
     .header{
         display: flex;
         justify-content: space-between;
+    }
+    .mobile_filter_modal.modal.show .search_area{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        align-items: center;
+    }
+    .mobile_filter_modal.modal.show .search_area .search_wrap{
+        margin-right: 0;
+        margin-bottom: 10px;
     }
 }
 /*----------------------------Buttons--------------------------------*/

@@ -24,34 +24,24 @@
                 <div class="title">"Покупай у своих"</div>
                 <div class="sub_title">Проект по поддержке малого бизнеса Петербурга</div>
             </div>
-            <div class="search_wrap">
-                <div class="search_button" onclick="openSearch(this);">
-                    <i class="fa fa-angle-down fa-2x" aria-hidden="true"></i>
+
+<!---------------------------------Filter------------------------------------>
+            <div class="search_area desktop">
+                <?php include_once('filter.php'); ?>
+            </div>
+
+            <div class="search_area mobile" data-value="filter" onclick="showModal(this);">
+                <div class="search_button">
                     <div class="content">
                         <p>Фильтр</p>
                         <i class="fa fa-search" aria-hidden="true"></i>
                     </div>
                 </div>
-                <div class="search_list">
-                    <div class="item" data-value="food" onclick="chooseItem(this);">
-                        <i class="fa fa-cutlery" aria-hidden="true"></i>
-                        <p>Еда</p>
-                    </div>
-                    <div class="item" data-value="books" onclick="chooseItem(this);">
-                        <i class="fa fa-book" aria-hidden="true"></i>
-                        <p>Книги</p>
-                    </div>
-                    <div class="item" data-value="services" onclick="chooseItem(this);">
-                        <i class="fa fa-handshake-o" aria-hidden="true"></i>
-                        <p>Усуги</p>
-                    </div>
-                    <div class="item" onclick="refreshList(this);">
-                        <i class="fa fa-refresh" aria-hidden="true"></i>
-                        <p>Показать всё</p>
-                    </div>
-                </div>
             </div>
+ <!---------------------------- / Filter------------------------------------>
+
         </div>
+
 <!--       / Header -->
 
 <!--        Content -->
@@ -99,6 +89,16 @@
             </div>
             <div class="place_card_modal modal">
                 <?php include('place_card_new.php'); ?>
+            </div>
+
+            <div class="mobile_filter_modal modal">
+                <div class="header_modal">
+                    <div class="title">Фильтры для карты</div>
+                    <i class="fa fa-times" aria-hidden="true" onclick="closeModal(this);"></i>
+                </div>
+                <div class="search_area">
+                     <?php include('filter.php'); ?>
+                </div>
             </div>
         </div>
 <!--       / Modal area-->
