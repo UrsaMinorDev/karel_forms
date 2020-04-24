@@ -27,7 +27,7 @@
 
 <!---------------------------------Filter------------------------------------>
             <div class="search_area desktop">
-                <?php include_once('filter.php'); ?>
+                <?php include('filter_2.php'); ?>
             </div>
 
             <div class="search_area mobile" data-value="filter" onclick="showModal(this);">
@@ -97,7 +97,7 @@
                     <i class="fa fa-times" aria-hidden="true" onclick="closeModal(this);"></i>
                 </div>
                 <div class="search_area">
-                     <?php include('filter.php'); ?>
+                     <?php include('filter_2.php'); ?>
                 </div>
             </div>
         </div>

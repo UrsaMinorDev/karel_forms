@@ -62,7 +62,7 @@ a{
 .search_area .search_wrap{
     justify-self: right;
     position: relative;
-    width: 170px;
+    min-width: 170px;
     margin-right: 10px;
 }
 
@@ -79,6 +79,7 @@ a{
     border: solid 2px #f67a14;
     transition: 0.4s;
     border-radius: 2px;
+    padding: 0 5px;
 }
 
 .search_area .search_button .content i{
@@ -105,22 +106,24 @@ a{
     flex-direction: column;
     z-index: 10000;
     overflow-y: scroll;
-    max-height: 80vh;
+    max-height: 70vh;
 }
 .search_area .search_wrap .search_list .item{
-    padding: 10px 20px;
+    padding: 8px 14px;
     cursor: pointer;
     transition: 0.4s;
     font-weight: 600;
     display: flex;
     align-items: center;
-    background-color: #b1b1b142;
+    background-color: white;
+    border-bottom: solid 1px #b1b1b1;
+    font-size: 14px;
 }
 .search_area .search_wrap .search_list .item.subitem {
     font-weight: 400;
-    font-size: 14px;
-    padding-left: 30px;
-    background-color: white;
+    font-size: 13px;
+    padding-left: 25px;
+    background-color: #b1b1b142;
 }
 .search_area .search_wrap .search_list .item p{
     margin: 0;
