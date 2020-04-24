@@ -410,9 +410,9 @@ footer .copyright {
         grid-template-columns: 150px auto;
         padding: 20px 20px 10px;
     }
-    footer .marketing_block .marketing_button{
-        display: flex;
-    }
+    /*footer .marketing_block .marketing_button{*/
+    /*    display: flex;*/
+    /*}*/
     footer .buttons_wrap .fontanka-button p{
         display: none;
     }
@@ -422,9 +422,9 @@ footer .copyright {
     .marketing_block .phone p{
         display: none;
     }
-    footer .marketing_block .logo{
-        display: none;
-    }
+    /*footer .marketing_block .logo{*/
+    /*    display: none;*/
+    /*}*/
     footer .marketing_block .logo.show {
         display: flex;
         position: absolute;
